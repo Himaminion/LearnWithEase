@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn With Ease</title>
+    <link rel="stylesheet" type="text/css" href="style_landing_page.css">
+    <script src="landingpage.js"></script>
+</head>
+<!DOCTYPE html>
+<html lang="en">
+<body>
+    <div class="mid">
+        <ul class="navbar">
+            <li><a href="#">Home</a></li>
+            <li class="dropdown" id="courses">
+                <a href="#">Courses</a>
+                <ul class="dropdown-menu" id="courses-submenu">
+                    <li class="dropdown" id="programming">
+                        <a href="#">Programming</a>
+                        <ul class="sub-sub-menu" id="programming-submenu">
+                            <li><a href="#">DSA</a></li>
+                            <li><a href="#">Algorithms</a></li>
+                            <li><a href="#">Interview</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Data Science</a></li>
+                    <li><a href="#">Machine Learning</a></li>
+                    <li><a href="#">IoT</a></li>
+                </ul>
+            </li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <div class="right">
+                <button class="btn">Sign up</button>
+                <button class="btn">Login</button>
+            </div>
+        </ul>
+    </div>
+        <form action="/search" method="GET" class="search-form">
+            <div class="search-container">
+                <input type="text" id="search-bar" placeholder="Start Searching to Learn With Ease..">
+                <button id="search-button" type="submit">
+                    <span id="button-text">Search</span></button>
+            </div>
+        </form>
+</body>
+</html>
